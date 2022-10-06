@@ -20,7 +20,7 @@ jobs:
           path: 'output.txt'
 
       - name: Create an issue
-        uses: JasonEtc/create-an-issue@v2.6.0
+        uses: JasonEtco/create-an-issue@v2.6.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ENVIRONMENT: Dev
